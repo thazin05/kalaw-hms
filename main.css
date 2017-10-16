@@ -1,0 +1,294 @@
+
+/* ----header top ----*/
+.header-top{
+	width:100%;
+	background-color:#f06f2b;
+	height:42px;
+	
+}
+.admin-title-wrapper{
+	float:left;
+	max-width:400px;
+	font-family:"Open Sans",sans-serif;
+	font-size:25px;
+	font-weight:600;
+	color:#fff;
+	padding:2px 0px 0px 30px;
+	
+}
+.admin-wrapper{
+	background-color:#555555;
+	float:right;
+	margin-right:5px;
+	height:42px;
+	
+}
+.admin-wrapper table{
+	font-family:"Open Sans",sans-serif;
+}
+
+.admin-wrapper .first-col{
+	width:70px;
+	border-right:2px solid #fff;
+	font-family:"Open Sans",sans-serif;
+	color:#fff;
+	font-size:13px;
+	text-align:center;
+	height:42px;
+	
+}
+.admin-wrapper .second-col{
+	width:70px;
+	border-right:2px solid #fff;
+	font-family:"Open Sans";
+	color:#fff;
+	font-size:13px;
+	text-align:center;
+	height:42px;
+	
+}
+.admin-wrapper .third-col{
+	min-width:150px;
+	font-family:"Open Sans";
+	color:#fff;
+	font-size:13px;
+	height:42px;
+	padding-left:10px;
+	
+}
+.circle-orange{
+	border-radius:35px;
+	padding:2.5px 7px;
+	width:17px;
+	font-family:13px;
+	color:#fff;
+	background-color:#f06f2b;
+}
+.bell{
+	font-size:17px;
+}
+.circle-green{
+	border-radius:35px;
+	padding:2.5px 7px;
+	width:17px;
+	font-family:13px;
+	color:#fff;
+	background-color:#82ae73;
+}
+.envlope{
+	font-size:17px;
+}
+.circle-profile-pic{
+	border-radius:35px;
+	padding:12px 17px;
+	width:35px;
+	background-color:#fff;
+	border:1px solid #CCC;
+}
+button{
+	background:none;
+	border:medium none;
+}
+.dropdown-menu > li > a{
+	font-size:13px;
+}
+
+.dropdown-menu > li > a:focus{
+	outline:none;
+}
+#dropdown-menu-width{
+	min-width:140px;
+}
+li.profile{
+	border-bottom:1px solid #CCC; 
+	padding-bottom:15px;
+}
+td.icon-padding{
+	padding-left:10px; 
+	padding-top:5px
+}
+td.status-padding{
+	padding-bottom:10px;
+	padding-left:10px;
+}
+.clearfix {
+    overflow: auto;
+}
+
+
+/* header bottom */
+.header-bottom{
+	width:100%;
+	float:left;
+	
+	background:#fcf6db;
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+}
+#dropdown-bottom{
+	padding:5px;
+}
+.fa{
+	font-size:14px;
+}
+#dropdown-menu-bottom li{
+	padding:0 10px;
+	border-right:1px solid #666;
+	width:150px;
+	color:#000;
+}
+a.header-bottom-menu{
+	color:#000;
+}
+li.border{
+	border-right:1px solid #c8bd8a;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #555555 !important;
+	border-radius:0 !important;
+	color:#fff !important;
+}
+.nav-pills > li + li {
+    margin-left: 0px !important;
+}
+.background{
+	background:none;
+}
+.background:hover{
+	color:#5a5959;
+}
+.background:focus{
+	color:#000;
+	background-color:none;
+}
+/*----Entry form title ------*/
+.entry-form-title{
+	font-size:18px;
+	text-transform:uppercase;
+	font-weight:bold;
+	border-bottom:1px solid #979483;
+	padding-top:80px;
+	font-family:"Open Sans";
+}
+.alphabet-wrapper{	margin-top:20px;}
+
+.alphabet td{
+	width:20px;
+	border-right:1px solid #c7c7c7;
+	font-size:12px;
+	font-family:"Open Sans";
+	text-align:center;
+	
+}
+.alphabet td a{
+	color:#000;
+	text-decoration:none;
+}
+.alphabet td a:hover{
+	color:#f06f2b;
+	text-decoration:none;
+}
+.alphabet td a:focus{
+	outline:none;
+}
+.alphabet td.active{
+	border:1px solid #c7c7c7;
+	background:#f06f2b;
+	color:#fff;
+}
+#custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+/* -- search form --*/
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+/* main menu*/
+navigation {
+    width: 100%;
+    background: #f3f3f3;
+    border-right: none;
+}
+
+navigation ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+navigation ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #fff; 
+    border-right: 1px solid #ccc;
+    width: 11.11%; /* fallback for non-calc() browsers */
+    width: calc(100% / 9 );
+    box-sizing: border-box;
+}
+
+navigation ul li:first-child {
+    border-left: none;
+}
+
+navigation ul li a {
+    display: block;
+    text-decoration: none;
+    color: #363636;
+    padding: 10px 0;
+	font-size:13px;
+	font-weight:600;
+	text-transform:uppercase;
+
+}
+navigation ul li a:hover{
+	background-color:#dddddd;
+	color:#dc0000;
+	text-decoration:none;
+}
+ul#navigation-act .active{
+	background:#dddddd;
+	color:#dc0000;
+	text-decoration:none;
+}
+navigations ul li a:focus{
+	outline:none;
+}
