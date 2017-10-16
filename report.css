@@ -1,0 +1,348 @@
+h2{
+		margin-top:0px !important;
+		margin-bottom:5px !important;
+		color:#f06f2b !important;
+		font-size:25px !important;
+		font-weight:600 !important;
+}
+
+.report-filter{
+	height:100px;
+	width:100%;
+	/* background:#f0efee; */
+	border:3px solid #c9da99;
+	border-radius:5px;
+	margin-top:0px;
+	padding:15px;
+	/* box-shadow: 0 0 1em #d2d2d2; */
+	
+}
+.report-filter label{
+	font-family:"Open Sans",sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	color:#333;	
+}
+
+.form-group-padding{
+	padding-left:15px;
+}
+
+.form-control {
+    height: 27px !important;
+}
+
+.circle-search{
+	margin-bottom:15px;
+}
+.search-button{
+	padding-top:5px;	
+}
+
+.btn-format-pdf {
+    background-color: #bb0706;
+}
+.btn-format-pdf .fa-file-pdf-o{
+	color:#fff;
+	font-weight:500;
+	font-size:16px;
+}
+.btn-format-excel {
+    background-color: #207347;
+}
+.btn-format-excel .fa-file-excel-o{
+	color:#fff;
+	font-weight:500;
+	font-size:16px;
+}
+.btn-format-word {
+    background-color: #2a5699;
+}
+.btn-format-word .fa-file-word-o{
+	color:#fff;
+	font-weight:500;
+	font-size:16px;
+}
+
+.btn-txt {
+    display: inline-block;
+    padding: 3px 15px;
+    margin-bottom: 0px;
+	font-family:"Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+}
+.fa-back{
+	font-size:12px;
+	color:#626161;	
+}
+
+table.format{
+	font-family:"Open Sans",sans-serif;
+	font-size:13px;
+	color:#333;
+	font-weight:600;
+	padding:0;
+	margin:0;
+}
+table.format td{
+	align:left;
+}
+.report-wrapper{
+	background:#F0EFEE;
+	margin:20px 0px;
+	width:1170px;
+	
+	margin-right: auto;
+	margin-left: auto;
+}
+.report-page{
+	background:#fff;
+	/* border: 1px solid #E6E6E6; */
+	padding:45px 50px;
+	margin: 40px 50px 40px 20px;
+}
+.report-page hr{
+	height:2px;
+	background:#f06f2b;
+	margin:0px !important;
+}
+
+.report-page p.right{
+	color:#333;
+	font-family:"Open Sans",sans-serif;
+	font-weight:600;
+	font-size:13px;	
+	margin: 0px;
+	text-align:right;
+	padding-top:10px;
+	
+}
+.report-page p.bottom-left{
+	color:#333;
+	font-family:"Open Sans",sans-serif;
+	font-weight:600;
+	font-size:13px;	
+	margin: 0px;
+	text-align:left;
+	padding-top:5px;	
+}
+.report-page p.bottom-right{
+	color:#333;
+	font-family:"Open Sans",sans-serif;
+	font-weight:600;
+	font-size:13px;	
+	margin: 0px;
+	text-align:right;
+	padding-top:5px;	
+}
+
+table.report th{
+	color:#333;
+	font-family:"Open Sans",sans-serif;
+	font-weight:600;
+	font-size:13px;	
+}
+table.report td{
+	color:#333;
+	font-family:"Open Sans",sans-serif;
+	font-weight:normal;
+	font-size:13px;	
+}
+
+#format-container{
+	padding:149px 0px 0px 133px;
+}
+
+#format-container ul{
+	
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+#format-container li{
+	display: inline;
+	padding-right: 5px;
+}
+#format-container .form-control {
+    display: inline !important;
+    width: 70px !important;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+	text-align:center;
+}
+#format-container .fa-back:hover{
+	color:#f06f2b;
+}
+#format-container .fa-back:focus{
+	outline:none;
+}
+#format-container li.fa-back{
+	padding-right:20px;
+}
+.search{
+	padding-top:5px;
+}
+.search .btn-default {
+    
+    background-color:#ff6600 !important;
+    border:5px solid #c9da99 !important;
+}
+
+.search .btn-default:hover {
+    
+    background-color:#ff6600 !important;
+    border:5px solid #fcf6db !important;
+}
+
+.search .btn-default:focus{
+	outline:none;
+}
+
+.search .fa-search{
+	color:#fff;
+	font-size:25px;
+}
+
+.btn-circle {
+  width: 60px;
+  height: 60px;
+  text-align: center !important;
+  padding:10px 0 25px 0 !important;
+  font-size:12px;
+  line-height: 1.42 !important;
+  border-radius: 35px !important;
+  /* box-shadow: 0 0 1em orange; */
+}
+
+.filter{
+	width:100%;}
+	
+#flip .btn-info {
+    color: #fff;
+    background-color: #555 !important;
+    border-color: #555 !important;
+    border-radius: 7px !important;
+	border-top-left-radius:0 !important;
+	border-top-right-radius:0 !important;
+    text-align: left !important;
+	/* box-shadow: 0 4px 2px -2px #e1e1e3 !important; 
+	margin-top:10px; */
+	padding-left:15px;
+
+}
+
+#flip .btn-info:hover {
+    
+    color:#fff !important;
+	background-color: #474747 !important;
+    border-color: #474747 !important;
+}
+
+#flip .btn-info:focus{
+    
+    color:#fff !important;
+	background-color: #555 !important;
+    border-color: #474747 !important;
+	outline:none !important;
+}
+
+.filter .fa-filter{
+	font-size:16px;
+	color:#fff;
+}
+.filter-div{
+	width:80px;
+	border-radius:3px;
+	background:#555;
+	padding:3px 3px 3px 15px;
+	color:#fff;
+	border:1px solid #ccc;
+}
+.filter-div:hover{
+	background:#898888;
+	border:1px solid #fcf6db;	
+}
+
+<!----------------------Report table ---->
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-ms-touch-action: none;
+}
+
+body {
+	overflow: hidden; /* this is important to prevent the whole page to bounce */
+}
+
+#header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#wrapper {
+	
+	position:absolute;
+	z-index:-1;
+	top: 197px;
+	bottom: 10px;
+	background: #ccc;
+	overflow: hidden;
+	
+}
+
+#scroller {
+	position: absolute;
+	z-index: -1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	height:auto;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+#panel, #flip {
+    padding: 15px 15px 8px 15px;
+    text-align: left;
+    background-color: #e5eecc;
+    border: solid 1px #c9da99;
+}
+
+#panel {
+    padding: 40px 50px;
+    display: none;
+	border-top:0px;
+}
+
