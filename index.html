@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "title" content = "Kalaw Hotel Reservation System">
+	<meta name="description" content="Kalaw Hotel Reservation System">
+	<meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Kalaw Hotel Reservation System</title>
+    
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="main.css" rel="stylesheet">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+<div class="header-top">
+<div class="admin-title-wrapper" style="vertical-align:middle">Kalaw Hotel Reservation</div>
+<div class="admin-wrapper">
+<table>
+<tr>
+<td width="70" class="first-col">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="icon-padding"><i class="fa fa-bell bell"></i><td>
+<td class="status-padding"><span class="circle-orange">5</span></td>
+</tr>
+</table>
+</td>
+<td width="70" class="second-col">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="icon-padding"><i class="fa fa-envelope envlope"></i></td>
+<td class="status-padding"><span class="circle-green">7</span></td>
+</tr>
+</table>
+</td>
+<td width="154" align="left" class="third-col">
+<table>
+<tr>
+<td class="dropdown"><img src="images/profile-img.png" width="38px" height="38px" class="img-circle">
+<button class="dropdown-toggle" type="button" data-toggle="dropdown">Thazin <span class="caret"></span></button>
+<ul class="dropdown-menu" id="dropdown-menu-width">
+<li><a href="#"><i class="fa fa-tachometer"></i>&nbsp;&nbsp; Dashboard</a></li>
+<li class="profile"><a href="#"><i class="fa fa-user"></i>&nbsp;&nbsp; Profile</a></li>
+<li><a href="#"><i class="fa fa-power-off"></i>&nbsp;&nbsp; Logout</a></li>
+</ul>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div><!--/admin-wrapper -->
+</div><!--/header top -->
+<div class="header-bottom">
+<div class="container-fluid">
+<ul class="nav nav-pills">
+<li class="border"><a href="#" class="header-bottom-menu"><i class="fa fa-book"></i> Reservation and Booking</a></li>
+<li class="border"><a href="#" class="header-bottom-menu"><i class="fa fa-cubes"></i> Employee Entry</a></li>
+<li class="border"><a href="#" class="header-bottom-menu"><i class="fa fa-users"></i> User Management</a></li>
+<li class="dropdown border">
+<a href="#" data-toggle="dropdown" class="dropdown-toggle header-bottom-menu"><i class="fa fa-retweet"></i> House Keeping &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+<ul class="dropdown-menu">
+<li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;&nbsp; House Keeping Status</a></li>
+<li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;&nbsp; House Keeping Policy</a></li>
+</ul>
+</li><!--/house keeping -->
+<li class="dropdown border">
+<a href="#" data-toggle="dropdown" class="dropdown-toggle header-bottom-menu"><i class="fa fa-cogs"></i> System &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+<ul class="dropdown-menu">
+<li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;&nbsp; Payment</a></li>
+<li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;&nbsp; Room Type</a></li>
+<li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;&nbsp; Room Facilities</a></li>
+<li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;&nbsp; Currency Exchange Rate</a></li>
+</ul>
+</li><!--/system -->
+<li><a href="#" id="background" class="header-bottom-menu"><i class="fa fa-file-text"></i> Reporting</a></li>
+</ul>
+</div>
+</div><!--/end container -->
+</div><!--/end header bottom -->
+<div class="container">
+<div class="entry-form-title">
+Room Type
+</div><!--/end Entry Form Title -->  
+<div class="alphabet-wrapper">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+
+<td width="80%">
+<table border="0" cellpadding="0" cellspacing="0" class="alphabet">
+<tr>
+<td class="active">All</td>
+<td><a href="#">A</a></td>
+<td><a href="#">B</a></td>
+<td><a href="#">C</a></td>
+<td><a href="#">D</a></td>
+<td><a href="#">E</a></td>
+<td><a href="#">F</a></td>
+<td><a href="#">G</a></td>
+<td><a href="#">H</a></td>
+<td><a href="#">I</a></td>
+<td><a href="#">J</a></td>
+<td><a href="#">K</a></td>
+<td><a href="#">L</a></td>
+<td><a href="#">M</a></td>
+<td><a href="#">N</a></td>
+<td><a href="#">O</a></td>
+<td><a href="#">P</a></td>
+<td><a href="#">Q</a></td>
+<td><a href="#">R</a></td>
+<td><a href="#">S</a></td>
+<td><a href="#">T</a></td>
+<td><a href="#">U</a></td>
+<td><a href="#">V</a></td>
+<td><a href="#">W</a></td>
+<td><a href="#">X</a></td>
+<td><a href="#">Y</a></td>
+<td><a href="#">Z</a></td>
+</tr>
+</table>
+</td><!--/end left sorting alphabet -->
+<td width="20%">
+<div id="custom-search-input">
+<div class="input-group col-md-12">
+<input type="text" class="  search-query form-control" placeholder="Search" />
+<span class="input-group-btn">
+<button class="btn btn-danger" type="button">
+<span class=" glyphicon glyphicon-search"></span>
+</button>
+</span>
+</div>
+</div>
+</td><!--/end search form -->
+</tr>
+</table>
+</div><!--/end alphabet wrapper -->
+</div>
+ 	
+</body>
+
+</html>
